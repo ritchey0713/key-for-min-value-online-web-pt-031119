@@ -19,4 +19,3 @@ def key_for_min_value(name_hash)
   low_key 
 end
 
-hash[new_value] #=> nil 
