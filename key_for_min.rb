@@ -8,8 +8,8 @@
 # compare old values to new values 
 
 def key_for_min_value(name_hash)
-  low_key = nil  
-  low_val = nil
+  low_key  
+  low_val 
   name_hash.each do |name, numbers|
     if low_val == nil || numbers < low_val
       low_val = numbers 
